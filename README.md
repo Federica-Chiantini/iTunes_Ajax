@@ -1,1 +1,1 @@
-https://github.com/Federica-Chiantini/iTunes_Ajax/blob/main/itunes.png
+![show the homepage](/itunes.png)
