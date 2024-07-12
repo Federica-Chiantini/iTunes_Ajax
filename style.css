@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.4;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgb(231, 174, 238);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(231, 174, 238, 1) 0%,
+    rgba(148, 188, 233, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(231, 174, 238, 1) 0%,
+    rgba(148, 188, 233, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(231, 174, 238, 1) 0%,
+    rgba(148, 188, 233, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e7aeee",endColorstr="#94bce9",GradientType=1);
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(114, 45, 114);
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+input {
+  width: 600px;
+  padding: 10px;
+  border: 1px solid purple;
+}
+
+#ricercaQuantita {
+  width: 100px;
+}
+
+input:focus {
+  background-color: rgba(128, 0, 128, 0.278);
+}
+
+button {
+margin-top: 10px;
+  width: 150px;
+  padding: 10px;
+  background-color: rgb(55, 158, 248);
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  color: rgb(55, 158, 248);
+}
+
+input,
+button {
+  border-radius: 10px;
+}
+
+table {
+  width: 80%;
+  margin: 2%;
+}
+
+th {
+  background-color: rgba(55, 158, 248, 0.345);
+}
+
+tr,
+td {
+  border: 2px solid rgb(129, 75, 129);
+}
+
+td {
+  color: rgb(32, 111, 181);
+}
+
+tr:hover {
+  background-color: rgba(129, 75, 129, 0.477);
+}
+
+td:hover {
+  color: rgb(16, 55, 90);
+  font-weight: bold;
+}
