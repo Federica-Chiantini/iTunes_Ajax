@@ -28,7 +28,7 @@ function cercaBrani(){ //cerca brano musicale
 }
 
 function generaHTML (brani, artista, numero){ //genera tabella e titolo
-    titolo.innerHTML = `<p style="color: #a3a1a5; text-align: center;">Trovati ${numero} brani dei/di <span style="color: rgb(114, 45, 114)">${artista}</span></p>`
+    titolo.innerHTML = `<p>Trovati ${numero} brani dei/di <span style="color: rgb(114, 45, 114)">${artista}</span></p>`
 
     let contenitore = document.getElementById("tabella");
 

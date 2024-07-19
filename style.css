@@ -8,23 +8,11 @@ body {
   line-height: 1.4;
   margin: 0 auto;
   padding: 20px;
-  background: rgb(231, 174, 238);
-  background: -moz-radial-gradient(
-    circle,
-    rgba(231, 174, 238, 1) 0%,
-    rgba(148, 188, 233, 1) 100%
-  );
-  background: -webkit-radial-gradient(
-    circle,
-    rgba(231, 174, 238, 1) 0%,
-    rgba(148, 188, 233, 1) 100%
-  );
-  background: radial-gradient(
-    circle,
-    rgba(231, 174, 238, 1) 0%,
-    rgba(148, 188, 233, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e7aeee",endColorstr="#94bce9",GradientType=1);
+  background: rgb(163,163,163);
+  background: -moz-linear-gradient(90deg, rgba(163,163,163,1) 0%, rgba(196,196,196,1) 50%, rgba(239,239,239,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(163,163,163,1) 0%, rgba(196,196,196,1) 50%, rgba(239,239,239,1) 100%);
+  background: linear-gradient(90deg, rgba(163,163,163,1) 0%, rgba(196,196,196,1) 50%, rgba(239,239,239,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a3a3a3",endColorstr="#efefef",GradientType=1);
 }
 
 header {
@@ -69,9 +57,15 @@ button {
   border-radius: 10px;
 }
 
+main{
+  margin: 0 auto;
+  padding: 2%;
+  text-align: center;
+}
+
 table {
+  margin: 0 auto;
   width: 80%;
-  margin: 2%;
 }
 
 th {
@@ -94,4 +88,15 @@ tr:hover {
 td:hover {
   color: rgb(16, 55, 90);
   font-weight: bold;
+}
+
+#bottone2{
+  width: 50%;
+  font-size: 1.2rem;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+  margin: 4% auto;
 }
